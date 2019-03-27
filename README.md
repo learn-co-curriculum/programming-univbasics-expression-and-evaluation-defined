@@ -67,7 +67,8 @@ That symbol means an "operation." Symbols that refer to a little unit of work
 case `/` is the _operator_ that means "division."
 
 So, this _expression_ will _evaluate_ to `51`, when "spoken" to Ruby in IRB.
-As we see in IRB, Ruby's "return value" to this expression is `51`.
+As we see in IRB, Ruby's "return value" to this expression is `51`. That's Ruby
+conversing back with us.
 
 The numbers `255` and `5` are bits of data. We'd call them "constants"
 
@@ -88,7 +89,7 @@ the operators you're going to need.
 
 ## Define "Evaluation"
 
-In case you missed it earlier, evaluation is the process of interpreting an
+In case you missed it up top, _evaluation_ is the process of interpreting an
 expression, according to rules, to produce a return value.
 
 ## Conclusion
