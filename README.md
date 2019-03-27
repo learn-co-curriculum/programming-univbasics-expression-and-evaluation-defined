@@ -77,4 +77,9 @@ expression, according to rules, to produce a return value.
 
 ## Conclusion
 
-## Resources
+In the next few lessons we're going to introduce the **Essential Three
+Expressions**: constant expression, assignment expression (variable
+assignment), and variable lookup expression.
+
+Let's visit the mysterious, yet oddly dull first of the essential expressions:
+**The Constant Expression**.
