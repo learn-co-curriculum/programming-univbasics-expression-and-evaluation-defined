@@ -66,16 +66,16 @@ That symbol means an "operation." Symbols that refer to a little unit of work
 ("opera" comes from the Latin word for "work") are called _operators_. In this
 case `/` is the _operator_ that means "division."
 
-Here's a table of other operators and their operations. Fortunately, all these
-operators are the same as their mathematical partner, so you probably know all
-the operators you're going to need.
-
 So, this _expression_ will _evaluate_ to `51`, when "spoken" to Ruby in IRB.
 As we see in IRB, Ruby's "return value" to this expression is `51`.
 
 The numbers `255` and `5` are bits of data. We'd call them "constants"
 
 ## Identify Core Operators in Ruby
+
+Here's a table of other operators and their operations. Fortunately, all these
+operators are the same as their mathematical partner, so you probably know all
+the operators you're going to need.
 
 |Operator|Operation|Note|
 |--------|---------|----|
