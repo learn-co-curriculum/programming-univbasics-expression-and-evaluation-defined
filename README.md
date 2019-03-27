@@ -53,6 +53,13 @@ therefore must be a _constant_.
 
 The same reasoning is true for `5` so, clearly `5` is a _constant_ as well.
 
+> **WARNING**: If you've written code before you might be thinking about a
+> thing that language might have had called a "constant." That's a similar
+> concept, but slightly different. _Those_ "constants" are more precisely
+> called "symbolic constants." Those "symbolic constants" are like _variables_,
+> the last "thing" in an expression. We'll discuss _variables_ in a few
+> lessons.
+
 What about `/`? It just so happens that `/` is an easier way of typing `÷`.
 That symbol means an "operation." Symbols that refer to a little unit of work
 ("opera" comes from the Latin word for "work") are called _operators_. In this
