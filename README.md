@@ -2,9 +2,10 @@
 
 ## Learning Goals
 
-* Define Expression
+* Define "Expression"
 * Identify the Parts of an Expression
-* Define Evaluation
+* Identify Core Operators in Ruby
+* Define "Evaluation"
 
 ## Introduction
 
@@ -31,7 +32,7 @@ conversation with IRB from the previous lesson. Think about `255 / 5` which
 elements of it are _constants_, _variables_, or _operators_? Let's look
 together.
 
-## Identify the Parts of an Expression
+## Identify the Parts of an "Expression"
 
 Given:
 
@@ -65,12 +66,27 @@ That symbol means an "operation." Symbols that refer to a little unit of work
 ("opera" comes from the Latin word for "work") are called _operators_. In this
 case `/` is the _operator_ that means "division."
 
+Here's a table of other operators and their operations. Fortunately, all these
+operators are the same as their mathematical partner, so you probably know all
+the operators you're going to need.
+
 So, this _expression_ will _evaluate_ to `51`, when "spoken" to Ruby in IRB.
 As we see in IRB, Ruby's "return value" to this expression is `51`.
 
 The numbers `255` and `5` are bits of data. We'd call them "constants"
 
-## Define Evaluation
+## Identify Core Operators in Ruby
+
+|Operator|Operation|Note|
+|--------|---------|----|
+| `+` | Addition ||
+| `-` | Subtraction ||
+| `*` | Multiplication | We use `*` instead of `×` because it looks like `x`-the-letter|
+| `/` | Division | We use `/` instead of `÷` because that's not on a keyboard|
+| `**` | Exponentiation | We use `**` instead of `^` because that means something else in programming languages|
+| `()` | Association | Expressions inside of `()` get evaluated earlier|
+
+## Define "Evaluation"
 
 In case you missed it earlier, evaluation is the process of interpreting an
 expression, according to rules, to produce a return value.
