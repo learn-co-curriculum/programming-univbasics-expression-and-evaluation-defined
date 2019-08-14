@@ -36,6 +36,13 @@ expressions are _really_ complex: `10 + (3 * ( -1 ** 3) + 2 / 18`.
 _Evaluation_ is the process of interpreting an expression, according to rules,
 to produce a return value.
 
+## Expression and Evaluation with Ruby
+
+![Expression being evaluated by Ruby](https://curriculum-content.s3.amazonaws.com/programming-univbasics/intro-to-programming-as-conversation/Image_67_ExpressEvaluation.png)
+
+These definitions should align with your experience of having a conversation
+with IRB from the previous lesson. Think about `255 / 5`.  Which parts of the
+expression are _data_? Which parts are _operators_?
 
 > *PRO-TIP*: Think it through yourself. Which is a given thing (_data_) and
 > which parts tell you how to combine things (_operators_)?  When reading
@@ -50,14 +57,14 @@ The _data_ are: `255` and `5`
 The _operator_: is `/`
 
 In this example, there is only one operator. It's certainly possible for
-expressions to have multiple operators like `100 + 10 - 3`. Here the
-_operators_ are `+` and `-`.
+expressions to have multiple operators like `100 + 10 - 3`. In this example,
+the _operators_ are `+` and `-`.
 
 ## Identify Core Operators in Ruby
 
 Here's a table of other operators and their operations. Fortunately, all these
 operators are either the same or nearly the same as their mathematical partner,
-so you probably know all the operators you're going to need for the near term.
+so you probably know all the operators you're going to need to get started.
 
 |Operator|Operation|Note|
 |--------|---------|----|
