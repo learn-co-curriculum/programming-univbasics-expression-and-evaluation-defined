@@ -80,7 +80,7 @@ so you probably know all the operators you're going to need to get started.
 In the next few lessons, we're going to introduce the **Essential Three
 Expressions**:
 
-FIGURE: THREE ESSENTIAL
+![Three Essential Expression](https://curriculum-content.s3.amazonaws.com/programming-univbasics/expression-and-evaluation-defined/Image_86_EssentialExpressions.png)
 
 1. The constant expression
 2. The assignment expression (variable assignment)
