@@ -22,9 +22,8 @@ of it. Let's propose formal definitions for _expression_ and _evaluation_.
 An expression in a programming language is like a sentence in a spoken
 language.
 
-Some sentences are simple: "He wept." Some sentences are complex: "I
-sing of weapons and a man, a man who, an outcast of Troy was driven to the
-shores of Italy..."
+Some sentences are simple: "He wept." Some sentences are complex: "I sing of
+weapons and a man, an outcast of Troy who was driven to the shores of Italy..."
 
 Some expressions are simple: `2`. Some expressions are complex `1 + 2`. Some
 expressions are _really_ complex: `10 + (3 * ( -1 ** 3) + 2 / 18`.
@@ -32,9 +31,11 @@ expressions are _really_ complex: `10 + (3 * ( -1 ** 3) + 2 / 18`.
 > **Definition**: Expression: A combination of information called _data_ and
 > _symbols_ indicating how to combine _data_ called _operators_.
 
-That should align with your experience of having a conversation with IRB from
-the previous lesson. Think about `255 / 5`.  Which parts of the expression are
-_data_? Which parts are _operators_?
+## Define "Evaluation"
+
+_Evaluation_ is the process of interpreting an expression, according to rules,
+to produce a return value.
+
 
 > *PRO-TIP*: Think it through yourself. Which is a given thing (_data_) and
 > which parts tell you how to combine things (_operators_)?  When reading
@@ -66,11 +67,6 @@ so you probably know all the operators you're going to need for the near term.
 | `/` | Division | We use `/` instead of `÷` because that's not on a keyboard|
 | `**` | Exponentiation | We use `**` instead of `^` because `^` means something else in programming languages|
 | `()` | Association | Expressions inside of `()` get evaluated earlier|
-
-## Define "Evaluation"
-
-_Evaluation_ is the process of interpreting an expression, according to rules,
-to produce a return value.
 
 ## Conclusion
 
