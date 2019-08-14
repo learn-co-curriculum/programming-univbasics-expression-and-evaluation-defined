@@ -9,10 +9,10 @@
 
 ## Introduction
 
-So now we've seen that we can have a conversation with Ruby by using the IRB
-program. Conversations, we've seen are the things that result when two
-individuals &mdash; be they human or machine &mdash; communicate _expressions_
-to one another.
+We've seen that we can have a conversation with Ruby by using the IRB program.
+Conversations, we've seen, are the things that result when two individuals
+&mdash; be they human or machine &mdash; communicate _expressions_ to one
+another.
 
 We've been imprecise in defining "expression" while we were getting the hang
 of it. Let's propose formal definitions for _expression_ and _evaluation_.
@@ -32,7 +32,7 @@ expressions are _really_ complex: `10 + (3 * ( -1 ** 3) + 2 / 18`.
 > **Definition**: Expression: A combination of information called _data_ and
 > _symbols_ indicating how to combine _data_ called _operators_.
 
-That should align with you experience of having a conversation with IRB from
+That should align with your experience of having a conversation with IRB from
 the previous lesson. Think about `255 / 5`.  Which parts of the expression are
 _data_? Which parts are _operators_?
 
@@ -48,7 +48,7 @@ _data_? Which parts are _operators_?
 The _data_ are: `255` and `5`
 The _operator_: is `/`
 
-In this example there is only one operator. It's certainly possible for
+In this example, there is only one operator. It's certainly possible for
 expressions to have multiple operators like `100 + 10 - 3`. Here the
 _operators_ are `+` and `-`.
 
@@ -74,7 +74,7 @@ to produce a return value.
 
 ## Conclusion
 
-In the next few lessons we're going to introduce the **Essential Three
+In the next few lessons, we're going to introduce the **Essential Three
 Expressions**:
 
 FIGURE: THREE ESSENTIAL
