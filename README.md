@@ -27,7 +27,7 @@ From Wikipedia, with minor revision for simplicity:
 > and computes to produce ("to return", in a stateful environment) another value.
 > This process, as for mathematical expressions, is called evaluation.
 
-That's pretty good! That should align with you experience of having a
+That's pretty good! That should align with your experience of having a
 conversation with IRB from the previous lesson. Think about `255 / 5` which
 elements of it are _constants_, _variables_, or _operators_? Let's look
 together.
