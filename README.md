@@ -26,7 +26,7 @@ Some sentences are simple: "He wept." Some sentences are complex: "I sing of
 weapons and a man, an outcast of Troy who was driven to the shores of Italy..."
 
 Some expressions are simple: `2`. Some expressions are complex `1 + 2`. Some
-expressions are _really_ complex: `10 + (3 * ( -1 ** 3) + 2 / 18`.
+expressions are _really_ complex: `10 + (3 * ( -1 ** 3) + 2) / 18`.
 
 > **Definition**: Expression: A combination of information called _data_ and
 > _symbols_ indicating how to combine _data_ called _operators_.
