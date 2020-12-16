@@ -91,8 +91,3 @@ on these Essential Three Expressions.***
 
 Let's visit the mysterious, yet oddly dull first of the essential expressions:
 **The Constant Expression**.
-
-## Resources
-
-* MDN
-  * [Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions)
